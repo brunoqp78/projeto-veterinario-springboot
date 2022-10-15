@@ -1,0 +1,35 @@
+<div th:fragment="form">
+
+	<div class="form-group">
+		<label for="nome" class="form-label">Nome</label> <input
+			class="form-control" type="text" th:field="*{nome}" id="nome"
+			placeholder="Nome Completo">
+	</div>
+
+	<div class="form-group">
+		<label for="email" class="form-label">Email</label> <input
+			th:field="*{email}" type="email" class="form-control" id="inputEmail"
+			required>
+	</div>
+
+	<div class="form-group">
+		<label for="especialidade" class="form-label">Especialidade</label>
+		<input th:field="*{especialidade}" type="text" class="form-control"
+			id="inputEspecialidade" required>
+	</div>
+	<div class="form-group">
+		<label for="salario" class="form-label">Salário</label> <input
+			th:field="*{salario}" type="number" step="any" class="form-control"
+			id="inputSalario" placeholder="R$1000.00" required>
+	</div>
+
+</div>
+
+<div th:fragment="form-find">
+
+	<div class="form-group">
+		<label for="nome" class="form-label">Nome</label> <input
+			class="form-control" type="text" th:field="*{nome}" id="nome"
+			placeholder="Nome Completo">
+	</div>
+</div>
