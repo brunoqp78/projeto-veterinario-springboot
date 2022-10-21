@@ -9,8 +9,7 @@
   <div th:replace="~{layoutBase :: navbar}"></div>
   <div class="container">
     <h1 class="mb-3">Pesquisar veterinários</h1>
-    <form action="#" th:object="${veterinario}" th:action="@{find2(param=${veterinario.nome})}">
-      
+	<form th:action="@{/home}">
       <div th:replace="~{formBaseVeterinario :: form-find}"></div>
       
       <div class="col-12 mt-2">
