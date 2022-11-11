@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
+// @Controller é associada com classes que possuem métodos que processam requests (requisições) numa aplicação web.
 @Controller
 public class VeterinarioController {
 	
