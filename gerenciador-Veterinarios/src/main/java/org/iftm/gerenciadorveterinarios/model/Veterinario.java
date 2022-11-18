@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor
-public class Veterinario {  
+public class Veterinario {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
